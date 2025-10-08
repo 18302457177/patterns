@@ -1,5 +1,5 @@
 package com.xxs.creationalPatterns.builder;
-
+// 指导者类
 public class Director {
     private Builder builder;
 

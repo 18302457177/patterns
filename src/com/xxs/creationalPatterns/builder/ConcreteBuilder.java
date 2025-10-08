@@ -1,5 +1,5 @@
 package com.xxs.creationalPatterns.builder;
-
+// 具体建造者类
 public class ConcreteBuilder implements Builder{
 
     private String partA;

@@ -1,5 +1,5 @@
 package com.xxs.creationalPatterns.builder;
-
+// 产品类
 public class Product {
     private String partA;
     private String partB;
