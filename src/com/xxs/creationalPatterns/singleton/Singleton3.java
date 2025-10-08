@@ -1,5 +1,8 @@
 package com.xxs.creationalPatterns.singleton;
 
+/**
+ * 懒汉式（线程不安全）
+ */
 public class Singleton3 {
     private static Singleton3 instance;
     private Singleton3(){

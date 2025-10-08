@@ -1,5 +1,8 @@
 package com.xxs.creationalPatterns.singleton;
 
+/**
+ * 静态内部类
+ */
 public class Singleton6 {
     private Singleton6(){
 

@@ -1,5 +1,8 @@
 package com.xxs.creationalPatterns.singleton;
 
+/**
+ * 饿汉式（静态代码块）
+ */
 public class Singleton2 {
     private static final Singleton2 INSTANCE;
 

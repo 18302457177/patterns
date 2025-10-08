@@ -1,5 +1,8 @@
 package com.xxs.creationalPatterns.singleton;
 
+/**
+ * 双重检查锁定
+ */
 public class Singleton5 {
     private static volatile Singleton5 Instance;
     private Singleton5(){
