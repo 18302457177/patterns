@@ -4,10 +4,10 @@ public class Client {
     public static void main(String[] args) {
         ConcretePrototype prototype = new ConcretePrototype("Prototype Data");
         ConcretePrototype prototype1 = (ConcretePrototype) prototype.clone();
-        System.out.println("prototype1 = " + prototype1.getData());
+        System.out.println("prototype1 = " + prototype1.getData());// 输出: Prototype Data
         prototype1.setData("Modified Data");
-        System.out.println("prototype = " + prototype.getData());
-        System.out.println("prototype1 = " + prototype1.getData());
+        System.out.println("prototype = " + prototype.getData());// 输出: Prototype Data
+        System.out.println("prototype1 = " + prototype1.getData());// 输出: Modified Data
         /**
          * 示例中的 String 是不可变类型，修改字符串时实际上是创建了新对象，
          * 因此不会影响原对象。但如果字段是可变对象（如集合、数组、自定义类），
