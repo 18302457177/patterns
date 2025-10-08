@@ -1,4 +1,4 @@
-package com.xxs.singleton;
+package com.xxs.creationalPatterns.singleton;
 
 public class Singleton6 {
     private Singleton6(){

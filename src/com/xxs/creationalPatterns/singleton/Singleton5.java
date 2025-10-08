@@ -1,4 +1,4 @@
-package com.xxs.singleton;
+package com.xxs.creationalPatterns.singleton;
 
 public class Singleton5 {
     private static volatile Singleton5 Instance;

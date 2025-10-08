@@ -1,4 +1,4 @@
-package com.xxs.singleton;
+package com.xxs.creationalPatterns.singleton;
 
 public class Singleton3 {
     private static Singleton3 instance;
