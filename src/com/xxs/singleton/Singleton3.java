@@ -1,0 +1,14 @@
+package com.xxs.singleton;
+
+public class Singleton3 {
+    private static Singleton3 instance;
+    private Singleton3(){
+
+    }
+    public Singleton3 getInstance(){
+        if(instance == null){
+            instance = new Singleton3();
+        }
+        return instance;
+    }
+}
